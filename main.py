@@ -1,13 +1,13 @@
 import streamlit as st
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import openai
-import os
+#import os
 import random
 import time
 
 # 환경변수 로드 및 OpenAI API 키 설정
-load_dotenv()
-openai.api_key = os.getenv("OPENAI_API_KEY")
+#load_dotenv()
+#openai.api_key = os.getenv("OPENAI_API_KEY")
 
 st.title('Life-Science Chat AI')
 
